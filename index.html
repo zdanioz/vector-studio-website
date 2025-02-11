@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vector Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8e9e5;
+            color: #4a1d1f;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #b02a2a;
+            color: white;
+        }
+        .logo img {
+            height: 50px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            background: url('hero-image.jpg') no-repeat center/cover;
+            text-align: center;
+        }
+        .hero-text {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #b02a2a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+        .project-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project-item {
+            width: 200px;
+            height: 200px;
+            background: #b02a2a;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #4a1d1f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image.png" alt="Vector Studio Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#progetti">Progetti</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Creiamo Identità Visive Uniche</h1>
+            <p>Innovazione e design al servizio della tua immagine.</p>
+            <a href="#contatti" class="btn">Contattaci</a>
+        </div>
+    </section>
+    
+    <section id="progetti" class="section">
+        <h2>Progetti</h2>
+        <div class="project-grid">
+            <div class="project-item">Progetto 1</div>
+            <div class="project-item">Progetto 2</div>
+            <div class="project-item">Progetto 3</div>
+        </div>
+    </section>
+    
+    <section id="servizi" class="section">
+        <h2>Servizi</h2>
+        <ul>
+            <li>Branding e Identità Visiva</li>
+            <li>Web Design e Sviluppo</li>
+            <li>Grafica e Comunicazione</li>
+        </ul>
+    </section>
+    
+    <section id="contatti" class="section">
+        <h2>Contattaci</h2>
+        <p>Email: info@vectorstudio.com</p>
+        <p>Telefono: +39 123 456 789</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vector Studio. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
